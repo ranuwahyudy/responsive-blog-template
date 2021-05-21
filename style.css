@@ -84,6 +84,16 @@ a {
     text-align: right;
 }
 
+.btn {
+    padding: 15px 20px;
+    border: none;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+}
+
 /* section styling */
 
 /* ----- Navigation Menu ----- */
@@ -167,6 +177,12 @@ a {
     }
 }
 
+@media (max-width:768px) {
+    .grid .grid-item {
+        width: calc(50% - 20px);
+    }
+}
+
 @media (max-width:574px) {
     .toggle-button {
         display: initial;
@@ -189,5 +205,9 @@ a {
 
     .collapse-toggle {
         max-height: 500px;
+    }
+
+    .grid .grid-item {
+        width: calc(100% - 20px);
     }
 }
