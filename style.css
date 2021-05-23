@@ -154,6 +154,12 @@ a {
     padding-bottom: 30px;
 }
 
+.thumbnail {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 /* section styling */
 
 /* ----- Navigation Menu ----- */
@@ -251,6 +257,13 @@ a {
 }
 
 /* ----- Footer ----- */
+
+/* ----- Article Page ----- */
+#post {
+    padding: 0 2em;
+    margin-bottom: 4em;
+}
+/* ----- Article Page ----- */
 
 /* Media Query */
 .row {
