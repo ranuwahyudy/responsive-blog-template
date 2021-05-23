@@ -171,6 +171,10 @@ a {
     border-radius: 99px;
 }
 
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 /* section styling */
 
 /* ----- Navigation Menu ----- */
@@ -330,6 +334,15 @@ a {
 
 /* ----- .Sidebar Page */
 
+/* ----- Sticky ----- */
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+/* ----- .Sticky ----- */
+
 /* Media Query */
 .row {
     display: flex;
@@ -376,6 +389,10 @@ a {
     .navbar {
         flex-direction: column;
     }
+
+    #site-main {
+        margin-top: 14em;
+    }
 }
 
 @media (max-width:768px) {
@@ -415,5 +432,9 @@ a {
 
     .grid .grid-item {
         width: calc(100% - 20px);
+    }
+
+    #site-main {
+        margin-top: 6em;
     }
 }
