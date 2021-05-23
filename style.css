@@ -312,7 +312,23 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
-/* ----- Article Page ----- */
+/* ----- .Article Page ----- */
+
+/* ----- Sidebar Page */
+#sidebar .categories a {
+    padding: 1em 3em;
+    font-size: 18px;
+    margin-bottom: 1em;
+    background-color: var(--light);
+    border-radius: 99px;
+}
+
+#sidebar .categories a:hover {
+    background-color: var(--primary-color);
+    color: var(--light);
+}
+
+/* ----- .Sidebar Page */
 
 /* Media Query */
 .row {
